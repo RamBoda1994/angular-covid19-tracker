@@ -1,0 +1,138 @@
+.header {
+    width: 100%;
+    height: 30px;
+    background-color: blueviolet;
+    text-align: center;
+    margin-bottom: 15px;
+    padding: 8px;
+    font-size: 20px;
+}
+
+.header > h4 {
+    text-transform: uppercase;
+    color: #ffffff;
+}
+
+.worldwide {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 25px 10px;
+}
+
+.worldwide-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.worldwide-item > label {
+    color: #ffffff;
+    padding: 12px;
+    font-weight: 700;
+}
+
+.worldwide-item > h3 {
+    color: dodgerblue;
+    margin-left: 10px;
+}
+
+label.confirmed {
+    background-color: peru;
+}
+
+label.deaths {
+    background-color: rgb(202, 13, 13);
+}
+
+label.recovered {
+    background-color: green;
+}
+
+label.active {
+    background-color: orange;
+}
+
+.country-selection {
+    padding: 20px 10px;
+    margin: 20px 0;
+    text-align: center;
+}
+
+.country-selection > label {
+    height: 40px;
+    padding: 11px;
+    font-weight: 600;
+    color: #ffffff;
+    background-color: cadetblue;
+}
+
+.country-selection > select {
+    width: 400px;
+    height: 40px;
+    margin: 0 15px;
+    font-size: 15px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+    background-color: darkgray;
+    cursor: pointer;
+}
+
+.country-selection > select > option:nth-of-type(odd){
+    background-color: linen;
+}
+.country-selection > select > option:nth-of-type(even){
+    background-color: lightblue;
+}
+
+.country-selection > button {
+    height: 40px;
+    padding: 11px;
+    background-color: indianred;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+.country-selection > button:disabled {
+    background-color: lightslategrey;
+    cursor: default;
+}
+
+.country-selection > button:hover {
+    background-color: lightslategray;
+}
+
+
+.country-table {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+}
+
+table > tr:nth-child(1) {
+    background-color: cornflowerblue ;
+    color: #ffffff;
+}
+
+table > tr:nth-child(2) {
+    background-color: darkgoldenrod;
+    text-align: center;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+th, td {
+    padding: 9px 50px;
+}
+
+.bottom {
+    width: 100%;
+    height: 150px;
+    background-color: lightskyblue;
+    margin-top: 70px;
+}
